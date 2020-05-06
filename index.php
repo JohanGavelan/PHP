@@ -1,16 +1,21 @@
-<?php 
+<?php
 
 
+$tasks = [
 
-$capitals = [
+    'Read' => '30 pages',
 
-    'Perú' => 'Lima',
+    'English' => '1 audible text',
 
-    'Estados Unidos' => 'Washington DC',
-
-    'México' => 'Ciudad de México'
-
+    'Html/Css' => '1 section'
+    
 ];
 
+$tasks['PHP'] = '3+ classes';
 
 require 'index.view.php';
+
+
+?>
+
+

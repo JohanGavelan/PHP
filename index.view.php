@@ -17,9 +17,9 @@
 
     <ul>
 
-         <?php foreach ($capitals as $country => $capital) : ?>
+         <?php foreach ($tasks as $topic => $task) : ?>
 
-            <?= "<li><strong>$country</strong> $capital</li>" ?>
+            <?= "<li><strong>$topic</strong> $task</li>" ?>
 
          <?php endforeach; ?>
 
