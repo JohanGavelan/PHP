@@ -1,14 +1,13 @@
-<?php 
+<?php
 
 
-$names = [
+$fruits = [
 
-    'Johan',
+    'Apple',
 
-    'Gabriel',
+    'Orange',
 
-    'Angel',
-
+    'Strawberry'
 ];
 
 

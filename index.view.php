@@ -19,9 +19,9 @@
 
         <?php
 
-            foreach ($names as $name) {
+            foreach ($fruits as $fruit) {
 
-                echo "<li>$name</li>";
+                echo "<li>$fruit</li>";
 
             }
 
