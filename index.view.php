@@ -17,11 +17,11 @@
 
     <ul>
 
-        <?php foreach ($person as $key => $feature) : ?>
+         <?php foreach ($capitals as $country => $capital) : ?>
 
-            <li><strong><?= $key; ?></strong> <?= $feature; ?></li>
+            <?= "<li><strong>$capital</strong> $capital</li>" ?>
 
-        <?php endforeach; ?>    
+         <?php endforeach; ?>
 
     </ul>
 

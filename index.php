@@ -1,13 +1,14 @@
 <?php 
 
 
-$person = [
 
-    'age' => 31,
+$capitals = [
 
-    'hair' => 'brown',
+    'Perú' => 'Lima',
 
-    'career' => 'web developer',
+    'Estados Unidos' => 'Washington DC',
+
+    'México' => 'Ciudad de México'
 
 ];
 
