@@ -19,7 +19,7 @@
 
          <?php foreach ($capitals as $country => $capital) : ?>
 
-            <?= "<li><strong>$capital</strong> $capital</li>" ?>
+            <?= "<li><strong>$country</strong> $capital</li>" ?>
 
          <?php endforeach; ?>
 
