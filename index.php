@@ -1,34 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        header {
-            background-color: #e3e3e3;
-            padding: 2em;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
+<?php 
 
 
-    <header>
+$names = [
 
-        <h1>
-            
-            <?=
+    'Johan',
 
-            "Hello, " . htmlspecialchars($_GET['name']) .  ". Welcome to PHP";
+    'Gabriel',
 
-            ?>
+    'Angel',
 
-        </h1>
-
-    </header>
+];
 
 
-</body>
-</html>
+require 'index.view.php';
