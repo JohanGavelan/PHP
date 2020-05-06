@@ -17,15 +17,11 @@
 
     <ul>
 
-        <?php
+        <?php foreach ($person as $key => $feature) : ?>
 
-            foreach ($animals as $animal) {
+            <li><strong><?= $key; ?></strong> <?= $feature; ?></li>
 
-                echo "<li>$animal</li>";
-
-            }
-
-        ?>
+        <?php endforeach; ?>    
 
     </ul>
 

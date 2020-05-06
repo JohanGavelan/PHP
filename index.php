@@ -1,17 +1,14 @@
 <?php 
 
 
-$animals = [
+$person = [
 
-    'Delfín',
+    'age' => 31,
 
-    'León',
+    'hair' => 'brown',
 
-    'Tigre',
+    'career' => 'web developer',
 
-    'Oso',
-
-    'Elefante'
 ];
 
 
