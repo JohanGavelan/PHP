@@ -17,25 +17,11 @@
 
     <ul>
 
-
-        
-
-        <?php  foreach ($names as $name) : ?>
-
-                <li><?= $name; ?></li>
-
-        <?php endforeach; ?>
-        
-
-
-
-
-
         <?php
 
-            foreach ($fruits as $fruit) {
+            foreach ($animals as $animal) {
 
-                echo "<li>$fruit</li>";
+                echo "<li>$animal</li>";
 
             }
 

@@ -1,19 +1,17 @@
-<?php
+<?php 
 
 
-$fruits = [
+$animals = [
 
-    'Apple',
+    'Delfín',
 
-<<<<<<< HEAD
-    'Gabriel',
+    'León',
 
-    'Angel'
-=======
-    'Orange',
+    'Tigre',
 
-    'Strawberry'
->>>>>>> fa20b8c3a14ae19420fabd8a891a6c8eb4cb4dbc
+    'Oso',
+
+    'Elefante'
 ];
 
 
