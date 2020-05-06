@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 
 $names = [
@@ -7,8 +7,7 @@ $names = [
 
     'Gabriel',
 
-    'Angel',
-
+    'Angel'
 ];
 
 
