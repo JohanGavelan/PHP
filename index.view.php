@@ -12,19 +12,39 @@
         }
     </style>
 </head>
-<body>
+<body>  
+       
 
+        <h1>Task for the day</h1>
 
-    <ul>
+        <ul>
+            
+            <li>
+            
+                <strong>Title: </strong> <?= $task['title'] ?>
 
-         <?php foreach ($tasks as $topic => $task) : ?>
+            </li>
 
-            <?= "<li><strong>$topic</strong> $task</li>" ?>
+            <li>
+            
+                <strong>Date: </strong> <?= $task['due'] ?>
 
-         <?php endforeach; ?>
+            </li>
 
-    </ul>
+            <li>
+            
+                <strong>Responsible: </strong> <?= $task['assigned_to'] ?>
 
+            </li>
+
+            <li>
+            
+                <strong>Completed: </strong> <?= $task['completed'] ? 'Completed' : 'Incomplete' ;?>
+
+            </li>
+        
+        </ul>
+    
 
 </body>
 </html>

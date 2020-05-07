@@ -1,21 +1,21 @@
-<?php
+<?php 
 
 
-$tasks = [
+$task = [
 
-    'Read' => '30 pages',
+    'title' => 'Finish PHP Class',
 
-    'English' => '1 audible text',
+    'due' => 'Today',
 
-    'Html/Css' => '1 section'
-    
+    'assigned_to' => 'Johan',
+
+    'completed' => true 
 ];
 
-$tasks['PHP'] = '3+ classes';
+
+
 
 require 'index.view.php';
 
 
 ?>
-
-
