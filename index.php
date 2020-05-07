@@ -9,7 +9,9 @@ $task = [
 
     'assigned_to' => 'Johan',
 
-    'completed' => true 
+    'completed' => false,
+    
+    'restart' => true   
 ];
 
 

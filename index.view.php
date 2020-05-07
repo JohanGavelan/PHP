@@ -38,9 +38,35 @@
             </li>
 
             <li>
-            
-                <strong>Completed: </strong> <?= $task['completed'] ? 'Completed' : 'Incomplete' ;?>
 
+                <Strong>Status: </Strong>
+            
+               <?php if ($task['completed']) : ?>
+
+                    <span class="icon">&#9989;</span>
+
+               <?php else : ?>
+
+                    <?= 'Incomplete' ?>
+
+               <?php endif; ?>
+
+            </li>
+
+            <li>
+        
+                <strong>Restart: </strong>
+
+                <?php if ($task['restart']) : ?>
+
+                    <?= 'Starting again' ?>
+
+                <?php else : ?>
+
+                    <?= 'No re-start' ?>
+
+                <?php endif; ?>
+            
             </li>
         
         </ul>
