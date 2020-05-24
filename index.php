@@ -1,14 +1,31 @@
-<?php 
+<?php
 
 
 require 'functions.php';
 
 
-echo die(permission(32));
+class Task {
+
+    protected $description;
 
 
+    protected $completed = false;
 
-require 'index.view.php';
+
+    public function __construct($description)
+
+    {
+
+        $this->description = $description;        
+
+    }
+
+}
 
 
-?>
+$task = new Task('Go to the store');
+
+
+dd($task);
+
+

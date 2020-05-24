@@ -1,19 +1,14 @@
-<?php 
+<?php
 
 
-function permission($age) {
+function dd($data) {
 
-    if ($age < 18) { 
+    echo '<pre>';
 
-        echo ('You are not old enough');
+    die(var_dump($data));
 
-    }
-
-    else {
-
-        echo 'You can access';
-
-    }
+    echo '<pre>';
 
 }
+
 
